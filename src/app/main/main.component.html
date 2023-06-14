@@ -1,6 +1,7 @@
 <h1 style="font-family: Arial, Helvetica, sans-serif">
   Angular Google-Charts Demo
 </h1>
+<button (click)="changeChart()">Change Data</button>
 <div *ngFor="let chart of charts">
   <google-chart
     [width]="600"
@@ -23,6 +24,7 @@
   [type]="changingChart.type"
   [data]="changingChart.data"
   [columns]="changingChart.columns"
+  [options]="options"
 >
 </google-chart>
 

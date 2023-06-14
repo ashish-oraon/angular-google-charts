@@ -336,6 +336,14 @@ export class MainComponent implements OnInit {
       ['Gold', Math.random() * 20.0],
       ['Platinum', Math.random() * 20.0],
     ];
+
+    this.charts[0].data = [
+      ['Work', Math.random() * 20.0],
+      ['Eat', Math.random() * 20.0],
+      ['Commute', Math.random() * 20.0],
+      ['Watch TV', Math.random() * 20.0],
+      ['Sleep', Math.random() * 20.0],
+    ];
   }
 
   public navigateToTest() {
